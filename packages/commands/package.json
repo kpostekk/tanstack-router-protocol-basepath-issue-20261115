@@ -1,0 +1,13 @@
+{
+  "name": "@l9/u3-commands",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.ts",
+    "./lib": "./lib/index.ts",
+    "./lib/*": "./lib/*"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "3.0.0-alpha.3",
+    "zod": "4.6.7"
+  }
+}

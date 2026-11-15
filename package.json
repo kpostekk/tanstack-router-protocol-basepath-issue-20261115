@@ -1,0 +1,33 @@
+{
+  "name": "universal-player-3",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./packages/*"
+    ],
+    "catalog": {
+      "oxfmt": "latest",
+      "oxlint": "latest",
+      "oxlint-tsgolint": "latest"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "nub run -r build",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "3.0.0-alpha.6",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
+    "oxlint-tsgolint": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.10.0",
+      "onFail": "ignore"
+    }
+  }
+}

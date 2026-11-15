@@ -1,0 +1,10 @@
+{
+  "name": "vite-plugin-copy",
+  "type": "module",
+  "exports": {
+    ".": "./lib.ts"
+  },
+  "peerDependencies": {
+    "vite": "^8"
+  }
+}
